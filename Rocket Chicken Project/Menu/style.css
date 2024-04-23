@@ -1,0 +1,75 @@
+:root {
+  --primary: #ff4545;
+  --bg: #010100;
+  --yellow: #ffef00;
+}
+
+* {
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: #fff;
+  background-color: var(--bg);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1, 7px solid #010100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar .navbar-first {
+  margin-left: 10rem;
+  margin-right: 5rem;
+}
+
+.navbar .navbar-first a {
+  display: inline-block;
+  margin: 0 1rem;
+  color: var(--primary);
+  font-size: 2rem;
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+.navbar .navbar-first a:hover {
+  color: var(--bg);
+}
+
+.navbar .navbar-judul img {
+  height: 50px;
+  width: 50px;
+  margin-left: 2rem;
+}
+
+.menu h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 3rem;
+}
+
+.menu .row-menu {
+    margin: 5rem 10rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
