@@ -1,0 +1,101 @@
+:root {
+  --primary: #ff4545;
+  --bg: #010100;
+  --yellow: #ffef00;
+}
+
+* {
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: #fff;
+  background-color: var(--bg);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1, 7px solid #010100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar .navbar-first {
+  margin-left: 10rem;
+  margin-right: 5rem;
+}
+
+.navbar .navbar-first a {
+  display: inline-block;
+  margin: 0 1rem;
+  color: var(--primary);
+  font-size: 2rem;
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+.navbar .navbar-first a:hover {
+  color: var(--bg);
+}
+
+.navbar .navbar-judul img {
+  height: 50px;
+  width: 50px;
+  margin-left: 2rem;
+}
+
+.name-page {
+  margin-top: 7rem;
+}
+
+.name-page h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.row-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10rem;
+  margin-top: 5rem;
+  justify-content: center;
+  gap: 15rem;
+}
+
+.row-info img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.row-info .row-plus h1 {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.row-info .row-plus p {
+  width: 40rem;
+  margin-top: 2rem;
+  word-spacing: 0.3rem;
+}
+
+.row-info .row-plus .row-visi {
+  margin-top: 1rem;
+}
+
+.row-info .row-plus .row-visi ul {
+  margin-bottom: 0.4rem;
+}
